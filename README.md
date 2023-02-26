@@ -19,3 +19,5 @@ variable list: gender,age,illness,reduced,health,private,freepoor,freerepat,lchr
 ### Modeling 
 For the number of visitors for two weeks, the Poisson model is generally used, but the zero value of the response variable is close to 80%, and the difference between the mean and variance is more than twice, so the zero expansion Poisson model will be used.
 
+### Conclusion
+ 
