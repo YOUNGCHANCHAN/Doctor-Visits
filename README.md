@@ -11,4 +11,9 @@ Find out how each variable affects the number of Doctor visitors in two weeks.
 - Most visits did not affect daily life, but a small number of 14-day people were seen as inpatients.
 - Overall, there were many low-income people, but the number of low-income insurance subscribers was very small at about 4%.
 
-#### -> For the number of visitors for two weeks, the Poisson model is generally used, but the zero value of the response variable is close to 80%, and the difference between the mean and variance is more than twice, so the zero expansion Poisson model will be used.
+### Variable Selection
+The optimal variable combination was extracted using the stepwise method.
+variable list: gender + age + illness + reduced + health + private + freepoor + freerepat + lchronic
+
+### Modeling 
+For the number of visitors for two weeks, the Poisson model is generally used, but the zero value of the response variable is close to 80%, and the difference between the mean and variance is more than twice, so the zero expansion Poisson model will be used.
